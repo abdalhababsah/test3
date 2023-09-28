@@ -1,0 +1,41 @@
+#container{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+#containerOne{
+   
+    width: 400;
+height: 500px;
+display: flex;
+margin: 10px;
+
+}
+.contentOne{
+
+    background-color: gray;
+    margin: 20px;
+    width: 15%;
+
+   
+}
+#containerTwo{
+  
+    
+height: 200px;
+display: flex;
+margin: 10px;
+width: 100%;
+}
+.contentTwo{
+    background-color: gray;
+    margin: 10px ;
+    width: 50%;
+
+}
+.paraHead {
+    border-bottom:solid white 1px;
+}
+p {
+    padding-left:5px ;
+}

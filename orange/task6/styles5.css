@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#container
+{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 15% auto 15%;
+    height: 50vh;
+    grid-template-areas:" logo logo logo logo logo logo logo logo logo logo  " 
+    " nav nav nav div div div div div div div "
+    "footer footer footer footer footer footer footer footer footer footer " ;
+}
+footer{
+    grid-area: footer;
+    background-color: blue;
+}
+aside{
+    grid-area: nav;
+    background-color: yellow;
+}
+#innerDiv{
+    grid-area: div;
+background-color: aqua;
+}
+header{
+    grid-area: logo;
+    background-color: black;
+}

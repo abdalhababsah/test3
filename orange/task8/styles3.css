@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+#navLinks{
+    gap: 10px;
+    display: flex;
+}
+#searchandbag{
+    display: flex;
+    gap: 10px;
+}
+
+#rightNav {
+    display: flex;
+    width: 67%;
+    align-items: center;
+    justify-content: space-between;
+}
+button
+{
+        padding: 5px;
+        margin-left: 10px;
+}
+#bodyPart{
+display: flex;
+flex-direction: column;
+}
+#bodyLinks {
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    /* padding: 20px; */
+    background-color: hsl(192deg 26.32% 92.55%);
+    height: 36px;
+    gap: 9px;
+}
+.bodyLink{
+    background-color: white;
+
+}
+#container{
+  background-color:   hsl(0, 0%, 100%);
+}
+#leftSide {
+    display: flex;
+    width: 50%;
+    height: 132px;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: fit-content;
+    flex-direction: column;
+}
+#leftLeftSide {
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+    #rightSidebox {
+        background-color: hsl(192deg 27.78% 92.94%);
+        margin-top: 20px;
+        padding: 42px;
+        width: 40%;
+    }
+
+
+#overallP{
+font-size: larger;
+
+}
+#04p{
+font-size: xx-large;
+color: orange;
+}
+#03p{
+font-size: medium;
+}
+.xlarger{
+    font-size: x-large;
+}
+.medium{
+    font-size: medium;
+}
+span i {
+    color:orange;
+}
+#leftSideContent{
+    width: 45%;
+    margin: 10px;
+}
+
+p i {
+    color:orange;
+}
+.reviewName{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.subProfileInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#profilesImg{
+    border-radius: 50%;
+    width: 72px;
+}
+input {
+  margin: 10px; 
+  border: 1px solid black; 
+  padding: 3px;
+}
+#innerBody {
+    display: flex;
+    flex-wrap: wrap;
+}
+#rightSide {
+    width: 49%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+#inputDiv{
+    display: flex;
+    flex-direction: column;
+}
+#submitButDiv {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+#submitButton{
+background-color: orange;
+padding: 10px;
+width: 40%;
+}
+ @media only screen and (max-width: 750px) {
+#leftSide{
+    width: 100%;
+
+}
+#rightSide{
+    width: 100%;
+}
+#navLinks {
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+@media only screen and (max-width: 550px) { 
+    #leftSide{
+        width: 100%;
+    
+    }
+    #rightSide{
+        width: 100%;
+    }
+    #navLinks {
+        gap: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #leftLeftSide {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #rightSidebox {
+        background-color: hsl(192deg 27.78% 92.94%);
+        margin-top: 20px;
+        padding: 42px;
+        width: 69%;
+    }
+    }

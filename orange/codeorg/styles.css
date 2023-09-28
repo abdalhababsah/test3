@@ -1,0 +1,277 @@
+
+
+*{
+    margin: 0 0 0 0;
+    padding: 0;
+}
+#container{
+display: flex;
+flex-direction: column;
+}
+/* -------------------navbar---------------------- */
+
+
+#navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+background-color: #00adbc;
+height: 50px;
+
+}
+#navLogo{
+
+}
+.navbutton{
+padding: 5px;
+background-color: transparent;
+border-color: white;
+}
+#navimg{ 
+height: 40px;
+margin-left: 10px
+}
+#navLinks{
+width: 70%;
+display: flex;
+flex-direction: row;
+gap: 10px;
+flex-wrap:wrap;
+margin-left: 15px;
+}
+.navLink{
+    color: white;
+    
+
+}
+/* ---------------------img----------------------------------- */
+#backImg {
+    background-color: #360161;
+    background-image: url(banner.jpg);
+    height: -webkit-fill-available;
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    
+    
+}#backbackImg{
+        width: 70%;
+        float: right;
+        
+    }
+button{
+    background-color: white;
+    border-radius: 5px;
+    max-width: 120px;
+    padding: 10px 20px;
+   
+}
+.pLargeSize {
+    font-size: xx-large;
+    margin: 0;
+}
+#hiddenDiv {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 30px;
+    margin-top: 60px;
+    gap: 36px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+width: fit-content;
+}
+
+li img {
+    height: 20px;
+    margin: 9px;
+}
+
+li p {
+    font-size: x-large;
+}
+/* ----------------------white part--------------------------- */
+#whitecontainer{
+background-color: white;
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+}
+#milionsContainer{
+    justify-content: space-around;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.millions{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+#tenYearsLogo{
+
+}
+.textAlignDiv{
+text-align: center;
+/* ------------------------------bannerblack--------------------------------- */
+}
+#backBlackImage{
+    flex-wrap: wrap;
+    display: flex;
+    background-image: url("banner-bg-school-supplies-dark-black.png");
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+#blackText
+{
+    color: white;
+   
+}
+/* ----------------cards------------------------- */
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    height: 500px;
+    gap: 20px;
+    grid-template-rows: auto auto;
+    
+    }
+    .card1{ 
+        
+        border: 1px solid;
+        background-image: url(2016_homepage_hocblock.jpg);
+        height:50% ;
+    }
+    .card2{
+        height:50% ;
+       background-image: url(logo_tall_elementary.jpg);
+    }
+    .card3{
+        height:50% ;
+        background-image: url(logo_tall_teacher2.jpg);
+    }
+    .card4{
+        height:50% ;
+        background-image: url(logo_tall_map.jpg);
+    
+    }
+    .text1{
+        text-align: center;
+        margin-top: 192px;
+        background-color: rgba(53, 201, 198, 0.6);
+        height: 294px;
+    
+    }
+    .text2{
+        text-align: center;
+        margin-top: 192px;
+        background-color: rgba(156, 90, 217, 0.6);
+        height: 294px;
+    }
+    .text3{
+        text-align: center;
+        margin-top: 192px;
+        background-color: rgba(57, 76, 250, 0.6);
+        height: 294px;
+    }
+    .text4{
+        text-align: center;
+        margin-top: 192px;
+        background-color: rgba(201, 201, 53, 0.6);
+        height: 294px;
+    }
+    @media only screen and (max-width: 750px) {
+        .card{
+          
+            grid-template-columns: repeat(2,48%);
+           
+            
+            }
+    }
+    #yellowDiv{
+        width: 98%;
+        background-color: orange;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        font-size: xx-large;
+    }
+    /* ---------------------------smallboxes----------------------------- */
+    #gallerythumb{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .gallarythumb div{
+        width: 46%;
+        display: flex;
+       
+    }
+    #lastPart{
+        margin: 20px;
+        gap: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #lastPart div{
+
+        font-size: x-large;
+        
+    }
+    /* ------------------------------footer---------------------------------- */
+    #footerPart{
+        background-color:#292f36 ;
+        display: flex ;
+        flex-direction: row;
+        justify-content: space-betweens;
+    }
+    #footerPartA{
+        color: white;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #footerPartContact{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+
+        width: 100%;
+    }
+    #footerIcon{
+        width: 50%;
+        display: flex;
+        gap: 10px;
+    }
+    input{
+        width: 80%;
+    }
+    i{
+        width: 40px;
+    }
+    .gallery_thumbnail img{
+        width: 100%;
+    }

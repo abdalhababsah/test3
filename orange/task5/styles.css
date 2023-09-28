@@ -1,0 +1,69 @@
+#container{
+background-color: blue;
+margin: 50px;
+display: flex;
+}
+#leftContainer{
+background-color: rgb(90, 90, 154);
+display: flex;
+flex-direction: column;
+width: 25%;
+}
+#rightContainer{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100vh;
+
+}
+#navBar{
+    padding: 20px;
+    background-color: aqua;
+display: flex;
+justify-content: space-between;
+
+}
+#squaresDiv{
+    display: flex;
+    flex-direction:row;
+    margin-top: 100px;
+
+}
+.squares{
+    padding: 10px;
+    background-color: aqua;
+    margin: 5px;
+    width: 25%;
+    height: 70PX;
+
+}
+#topSalling
+{
+     background-color: rgb(167, 174, 174);
+     width: 60%;
+     margin: 5px;
+
+
+}
+#totalSale{
+    background-color: aqua;
+    width: 37%;
+    height: auto;
+    margin: 5px;
+    
+    
+
+}
+.leftContent{
+   width: 100%;
+}
+#sallesDiv{
+   
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    margin-top: 160px;   
+}
+#squares{
+    border: 1px solid white;
+}

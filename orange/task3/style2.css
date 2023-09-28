@@ -1,0 +1,22 @@
+#dogImg {
+    width: 300px;
+    height: 300px;
+}
+div{
+   display: flex;
+  
+}
+body {
+    background-color: rgb(174, 174, 114);
+}
+span{
+    margin-left:  10px;
+    color: green;
+}
+h1 , h3 , p{
+    color: green;
+
+}
+#Pdate{
+    font-size: large;
+}

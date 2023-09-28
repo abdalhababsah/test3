@@ -1,0 +1,34 @@
+#container {
+    margin-right: 50px ;
+    margin-top: 0px;
+    background-color: rgb(110, 110, 232);
+    display: flex;
+    
+
+    
+}
+#subLeft  {
+    
+    
+    width: 25%;
+}
+#subRight{
+    object-fit: contain;
+    display: flex;
+background-color: white;
+padding: 30px;
+margin: 20px;
+width:75%;
+
+}
+.allContent{
+    display: flex;
+flex-direction: column;
+padding: 10px;
+}
+h2{
+   width: min-content;
+    
+    margin: 30px auto;
+}
+

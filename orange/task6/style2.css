@@ -1,0 +1,50 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    margin: 100px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 15%;
+    box-shadow: 10px ;
+    height: fit-content;
+    width: 30%;
+}
+.prifileImg{
+   object-fit: cover;
+    width: 20%;
+    justify-content: flex-start;
+
+  
+}
+img{
+    width: 30px;
+    border-radius: 50%;
+}
+.userInfo{
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid rgb(150, 38, 38);
+    padding: 10px;
+display: flex;
+flex-direction: row;
+justify-content: start;
+}
+
+#lastUserInfo{
+    padding: 10px;
+display: flex;
+flex-direction: row;
+}
+.textInfo{
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
+p{
+    margin: 1px;
+}

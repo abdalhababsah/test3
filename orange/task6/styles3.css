@@ -1,0 +1,51 @@
+        body {
+            margin: 50px;
+            padding: 0;
+
+        } 
+
+        div{
+            margin: 0;
+            padding: 0;
+        }
+        #upperContainer {
+            display: grid;
+            width: auto;
+            grid-template-columns: 50% 50%;
+            gap: 0;
+        }
+
+        #rightContainer {
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+        }
+
+        #leftContainer {
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: auto;
+        }
+
+        #navbarContainer {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); 
+            gap: 3px;
+        }
+
+        .navbarButtons {
+           
+            text-align: center; 
+            padding: 10px;
+        }
+
+        img {
+            max-width: 100%; 
+            height: auto; 
+            margin: 0;
+            padding: 0;
+        }
+        .navbarButtons{
+            border: 1px solid black;
+
+        }
+      

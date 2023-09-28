@@ -1,0 +1,30 @@
+div{
+    margin: 10px;
+}
+.rowOne {
+    margin: 10px;
+    display: flex;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+body{
+    background-color: pink;
+}
+#subContainerOne{
+
+overflow: hidden;
+}
+#container{
+    display: flex;
+    width: 100%;}
+    #scrolledDiv{
+        overflow: auto ;
+        width: auto;
+        height: 50px;
+        border: 1px solid;
+        margin: 20px ;
+        
+        
+    }
+    #containertwo{
+        width: auto;}

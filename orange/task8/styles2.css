@@ -1,0 +1,128 @@
+#navBar{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/* div{
+    border: 1px solid black;
+} */
+#navLinks {
+    margin: 0px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    padding: 25px;
+}
+#shoppingcart{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+#searchANDimg {
+    width: 62%;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+}
+#search{
+    border: 1px solid gray;
+
+}
+#deppartments{
+width: 30%;
+margin-left:20px ;
+border: 1px solid gray;
+margin-bottom:40px ;
+margin-top: 20px;
+}
+.departmentsDiv {
+    
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    display: flex;
+
+}
+
+input{
+    
+        width: 88%;
+        height: 30px;
+        /* padding: 20px; */
+    
+}
+.pLargeSize {
+    font-size: xx-large;
+    margin: 0;
+}
+#hiddenDiv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 30px;
+}
+#backImg {
+    background-image: url(banner.jpg);
+    height: -webkit-fill-available;
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    
+}
+button{
+    background-color: aquamarine;
+    max-width: 120px;
+    padding: 10px 20px;
+   
+}
+#shop {
+    width: 100%;
+    margin: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.products {
+    max-width: 314px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 305px;
+    min-width: 260px;
+}
+.productname{
+background-color: white;
+font-size: larger;
+padding: 10px;
+}
+#product1{
+background-image: url("cat-1.jpg");
+}
+#product2{
+background-image: url("cat-2.jpg");
+
+}
+#product3{
+background-image: url("cat-3.jpg");
+
+}
+#product4{
+background-image: url("cat-4.jpg");
+
+}
